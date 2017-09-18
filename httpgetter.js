@@ -1,4 +1,5 @@
 const http=require('http')
+
 let link = process.argv[2]
 http.get(link,function(response){
   response.setEncoding('utf8');
